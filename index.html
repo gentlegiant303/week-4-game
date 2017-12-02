@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars RPG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Star Wars RPG</h1>
+      <p></p>
+    </div>
+    <div class="row">
+    <div class="col-lg-12">
+      <div id="character_select"><h2>Select Your Character</h2></div>
+      <div class="col-lg-3">
+        <img src="./assets/images/Asajj_Ventress.jpg" alt="Asajj Ventress" class="image" id="asajj">
+      </div>
+      <div class="col-lg-3">
+        <img src="./assets/images/Barrisprofile2.jpg" alt="Barriss Offee" class="image" id="barriss">
+      </div>
+      <div class="col-lg-3">
+        <img src="./assets/images/Maz_Kanata.jpg" alt="Maz Kanata" class="image" id="maz">
+      </div>
+      <div class="col-lg-3">
+        <img src="./assets/images/Rey_Star_Wars.png" alt="Rey" class="image" id="rey">
+      </div>
+    </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+      <div class="col-lg-4">
+      <div id="selected_character">
+        <h1><strong>Selected Character</strong></h1>
+        <br />
+        <div id="health"><b>Health: </b></div>
+      </div>
+      <button type="button" name="btn btn-default" id="attack">Attack</button>
+    </div>
+      <div class="col-lg-4 col-lg-offset-4" id="current_enemy">
+        <h1><strong>Selected Enemy</strong></h1>
+        <div id="enemy_health"><b>Health: </b></div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </body>
+</html>

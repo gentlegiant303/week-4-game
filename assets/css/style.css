@@ -1,0 +1,23 @@
+.jumbotron {
+  background: black;
+  color: yellow;
+  text-align: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+#attack {
+  display:block;
+}
